@@ -1,5 +1,5 @@
-from funciones.sumaguzman import sumar
+from funciones.NumparMeza import es_par
 
-def test_sumar():
- assert sumar(3, 5) == 8
- assert sumar(-2, 2) == 0
+def test_es_par():
+    assert es_par(4) is True    # 4 es par, debería devolver True
+    assert es_par(7) is False   # 7 es impar, debería devolver False
