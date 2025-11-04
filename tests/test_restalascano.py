@@ -1,5 +1,5 @@
 # tests/test_restar.py
-from funciones.restarlascano import restar
+from funciones.restalascano import restar
 
 def test_restar():
     assert restar(10, 4) == 6
