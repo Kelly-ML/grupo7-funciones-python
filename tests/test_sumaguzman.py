@@ -1,4 +1,4 @@
-from funciones.NumparMeza import sumar
+from funciones.sumaguzman import sumar
 
 def test_es_par():
     assert es_par(4) is True    # 4 es par, debería devolver True
