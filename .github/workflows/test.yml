@@ -24,4 +24,5 @@ jobs:
 
       - name: Ejecutar pruebas
         run: |
-          pytest -v 
+          export PYTHONPATH=.
+          pytest -v
