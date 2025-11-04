@@ -1,4 +1,4 @@
-from funciones.modulo import modulo
+from funciones.moduloLauria import modulo
 
 def test_modulo():
     assert modulo(10, 3) == 1
