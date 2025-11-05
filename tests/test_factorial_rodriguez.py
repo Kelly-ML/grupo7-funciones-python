@@ -1,4 +1,4 @@
-from funciones.factorial import factorial
+from funciones.factorial_rodriguez import factorial
 
 def test_factorial_positive():
     assert factorial(5) == 120
