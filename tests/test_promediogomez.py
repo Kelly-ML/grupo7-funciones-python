@@ -1,4 +1,4 @@
-from funciones.promedio import promedio
+from funciones.promediogomez import promedio
 
 
 def test_promedio():
